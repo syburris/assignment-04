@@ -74,6 +74,7 @@ img {
   width: 100%;
   height: 100%;
   display: inline-block;
+  position: relative;
 }
 
 #app-container .backdrop{
@@ -82,6 +83,53 @@ img {
   height: 100vh;
   background-image: url(../images/hero-splash-roommates-fun.jpg);
   background-size: cover;
+}
+
+.chat {
+  height: 200px;
+  width: 300px;
+  margin: 20px 20px;
+  background: white;
+  border: 6px solid #29BBAF;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.chat .chat-nav{
+  height: 33.3%;
+  width: 100%;
+  background: #B0E6E2;
+  border: none;
+  text-align: left;
+  display: inline-block;
+}
+
+.chat .chat-img {
+  height: 70%;
+  width: 20%;
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.chat .chat-content{
+  display: inline-block;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+  top:0;
+
+}
+.chat img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.chat a{
+  text-decoration: none;
+  color: #F55E05;
 }
 
 .backdrop .roommates{
