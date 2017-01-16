@@ -3,6 +3,8 @@
 }
 body {
   font-family: "Libre Franklin", "Helvetica", "sans-serif";
+  height: 100%;
+  width: 100%;
 }
 img {
   width: 100%;
@@ -10,7 +12,7 @@ img {
 }
 #app-container {
   width: 100%;
-  height: 100% auto;
+  height: 100%;
   display: inline-block;
 }
 
@@ -140,12 +142,12 @@ img {
 .gray-container {
   margin-top: 20px;
   width: 100%;
-  height: 400px;
+  height: 600px;
   background: lightgray;
   padding: 30px 20px;
   display: inline-block;
-  position: relative;
-  text-align: center;
+  position: absolute;
+  text-align: justify;
 
 }
 
@@ -157,15 +159,64 @@ img {
   display: inline-block;
   text-align: left;
   vertical-align: top;
+  margin-left: 12%;
+  margin-top: 3%;
+  line-height: .5;
+}
+.col-1 img{
+  width: 100%;
+  height: 65%;
+  display: block;
+}
 
-
+.col-1 h4, h2 {
+  margin-bottom: auto;
+  padding-left: 5%;
 }
 
 .col-2{
-  width: 50%;
-  height: 100%;
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+  width: 35%;
+  height: 80%;
   display: inline-block;
   text-align: left;
   padding: 0 30px;
   vertical-align: top;
+  margin-left: 10%;
+  margin-top: 5%;
+
+}
+.col-2 h4 {
+  padding-left: 20px;
+}
+.col-2 ul {
+  list-style-type: circle;
+  font-size: 1em;
+  line-height: 2;
+}
+
+.footer {
+  color: white;
+  position: relative;;
+  height: 500px;
+  width: 104%;
+  bottom: -40px;
+  background: #333333;
+  text-align: left;
+  display: inline-block;
+  padding: 10px 40px 10px 10px;
+  margin-left: -20px;
+  margin-right: 0px;
+}
+
+.col-3 {
+  width: 20%;
+  display: inline;
+  position: relative;
+  height: 60%;
+  color: white;
+}
+
+.col-3 hr{
+  color: white;
 }
