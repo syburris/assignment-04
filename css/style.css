@@ -199,7 +199,7 @@ img {
   color: white;
   position: relative;;
   height: 500px;
-  width: 104%;
+  width: 103%;
   bottom: -40px;
   background: #333333;
   text-align: left;
@@ -210,13 +210,32 @@ img {
 }
 
 .col-3 {
-  width: 20%;
-  display: inline;
+  width: 33%;
+  display: inline-block;
   position: relative;
-  height: 60%;
+  height: 70%;
+  color: white;
+  padding: 40px 40px;
+}
+.col-3 ul{
+  padding: 17px;
+  line-height: 3;
+  list-style-type: none;
+  color: #959899;
+}
+.col-3 hr{
   color: white;
 }
 
-.col-3 hr{
-  color: white;
+.icons {
+  width: 100%;
+  height: 30%;
+  display: inline-block;
+  position: relative;;
+  text-align: right;
+}
+.icons .icon {
+  padding: 20px 20px;
+  display: inline-block;
+
 }
