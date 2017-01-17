@@ -66,8 +66,16 @@ img {
 
 }
 .button:hover {
+  background: #B0E6E2;
+  border: 1px solid #B0E6E2;
+  color: black;
+  border-radius: 5%;
+}
+.button:active{
   background: transparent;
-  border: 1px solid white;
+  border: 1px solid #B0E6E2;
+  color: #B0E6E2;
+  border-radius: 5%;
 }
 
 #app-container {
@@ -95,6 +103,20 @@ img {
   left: 0;
   bottom: 0;
   z-index: 1;
+  display: inline-block;
+}
+.chat .block-arrow {
+  height: 50px;
+  width: 50px;
+  color: white;
+  background: #29BBAF;
+  position: absolute;
+  top: -50px;
+  right: -6px;
+  z-index: 1;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: center;
 }
 
 .chat .chat-nav{
@@ -107,24 +129,25 @@ img {
 }
 
 .chat .chat-img {
-  height: 70%;
   width: 20%;
   display: inline-block;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .chat .chat-content{
   display: inline-block;
+  width: 75%;
   font-size: 16px;
-  align-items: center;
-  text-align: center;
-
+  align-items: top;
+  padding-left: 20px;
+  margin: 0;
 }
 .chat img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
+  border: 1px solid black;
 }
 .chat a{
   text-decoration: none;
